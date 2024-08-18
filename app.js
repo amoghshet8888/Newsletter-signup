@@ -33,7 +33,7 @@ app.post("/", (req, res) => {
 
     const option = {
         method: "POST",
-        auth: "amogh1:a621cbf71e96d2bd1514e1a4a582f18b-us14"
+        auth: "amogh1:46920a73d649f5f519bc8dae19a4c926-us14"
     }
 
     const request = https.request(url, option, (response) => {
@@ -66,7 +66,7 @@ app.listen(process.env.port || 3000, () => {
 })
 
 //api key
-//a621cbf71e96d2bd1514e1a4a582f18b-us14
+//46920a73d649f5f519bc8dae19a4c926-us14
 
 //List id
 //7fd0338534
